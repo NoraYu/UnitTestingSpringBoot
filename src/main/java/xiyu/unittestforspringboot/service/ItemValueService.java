@@ -4,6 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import xiyu.unittestforspringboot.Entity.Item;
 
+import java.util.Arrays;
+import java.util.List;
+
 @Service
 public class ItemValueService {
     @Autowired
@@ -16,5 +19,6 @@ public class ItemValueService {
             sum+=item.getValue();
         }
         return sum;
+
     }
 }

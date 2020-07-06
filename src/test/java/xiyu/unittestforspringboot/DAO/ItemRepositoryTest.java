@@ -19,6 +19,6 @@ public class ItemRepositoryTest {
     @Test
     public void findAllShouldWork(){
         List<Item> items=itemRepository.findAll();
-        assertEquals(2,items.size());
+        assertEquals(5,items.size());
     }
 }
